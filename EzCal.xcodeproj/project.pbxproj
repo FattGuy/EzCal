@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B37C08C11F4E75FA001AF12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C08C01F4E75FA001AF12E /* AppDelegate.swift */; };
+		B37C08C31F4E75FA001AF12E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C08C21F4E75FA001AF12E /* ViewController.swift */; };
+		B37C08C61F4E75FA001AF12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C08C41F4E75FA001AF12E /* Main.storyboard */; };
+		B37C08C81F4E75FA001AF12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37C08C71F4E75FA001AF12E /* Assets.xcassets */; };
+		B37C08CB1F4E75FA001AF12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C08C91F4E75FA001AF12E /* LaunchScreen.storyboard */; };
+		B37C08D61F4E75FA001AF12E /* EzCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C08D51F4E75FA001AF12E /* EzCalTests.swift */; };
+		B37C08E11F4E75FA001AF12E /* EzCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37C08E01F4E75FA001AF12E /* EzCalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B37C08D21F4E75FA001AF12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37C08B51F4E75FA001AF12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37C08BC1F4E75FA001AF12E;
+			remoteInfo = EzCal;
+		};
+		B37C08DD1F4E75FA001AF12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37C08B51F4E75FA001AF12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37C08BC1F4E75FA001AF12E;
+			remoteInfo = EzCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B37C08BD1F4E75FA001AF12E /* EzCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37C08C01F4E75FA001AF12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B37C08C21F4E75FA001AF12E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B37C08C51F4E75FA001AF12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B37C08C71F4E75FA001AF12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B37C08CA1F4E75FA001AF12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B37C08CC1F4E75FA001AF12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37C08D11F4E75FA001AF12E /* EzCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37C08D51F4E75FA001AF12E /* EzCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzCalTests.swift; sourceTree = "<group>"; };
+		B37C08D71F4E75FA001AF12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37C08DC1F4E75FA001AF12E /* EzCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37C08E01F4E75FA001AF12E /* EzCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzCalUITests.swift; sourceTree = "<group>"; };
+		B37C08E21F4E75FA001AF12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B37C08BA1F4E75FA001AF12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C08CE1F4E75FA001AF12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C08D91F4E75FA001AF12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B37C08B41F4E75FA001AF12E = {
+			isa = PBXGroup;
+			children = (
+				B37C08BF1F4E75FA001AF12E /* EzCal */,
+				B37C08D41F4E75FA001AF12E /* EzCalTests */,
+				B37C08DF1F4E75FA001AF12E /* EzCalUITests */,
+				B37C08BE1F4E75FA001AF12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B37C08BE1F4E75FA001AF12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B37C08BD1F4E75FA001AF12E /* EzCal.app */,
+				B37C08D11F4E75FA001AF12E /* EzCalTests.xctest */,
+				B37C08DC1F4E75FA001AF12E /* EzCalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37C08BF1F4E75FA001AF12E /* EzCal */ = {
+			isa = PBXGroup;
+			children = (
+				B37C08C01F4E75FA001AF12E /* AppDelegate.swift */,
+				B37C08C21F4E75FA001AF12E /* ViewController.swift */,
+				B37C08C41F4E75FA001AF12E /* Main.storyboard */,
+				B37C08C71F4E75FA001AF12E /* Assets.xcassets */,
+				B37C08C91F4E75FA001AF12E /* LaunchScreen.storyboard */,
+				B37C08CC1F4E75FA001AF12E /* Info.plist */,
+			);
+			path = EzCal;
+			sourceTree = "<group>";
+		};
+		B37C08D41F4E75FA001AF12E /* EzCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				B37C08D51F4E75FA001AF12E /* EzCalTests.swift */,
+				B37C08D71F4E75FA001AF12E /* Info.plist */,
+			);
+			path = EzCalTests;
+			sourceTree = "<group>";
+		};
+		B37C08DF1F4E75FA001AF12E /* EzCalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B37C08E01F4E75FA001AF12E /* EzCalUITests.swift */,
+				B37C08E21F4E75FA001AF12E /* Info.plist */,
+			);
+			path = EzCalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B37C08BC1F4E75FA001AF12E /* EzCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37C08E51F4E75FA001AF12E /* Build configuration list for PBXNativeTarget "EzCal" */;
+			buildPhases = (
+				B37C08B91F4E75FA001AF12E /* Sources */,
+				B37C08BA1F4E75FA001AF12E /* Frameworks */,
+				B37C08BB1F4E75FA001AF12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzCal;
+			productName = EzCal;
+			productReference = B37C08BD1F4E75FA001AF12E /* EzCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B37C08D01F4E75FA001AF12E /* EzCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37C08E81F4E75FA001AF12E /* Build configuration list for PBXNativeTarget "EzCalTests" */;
+			buildPhases = (
+				B37C08CD1F4E75FA001AF12E /* Sources */,
+				B37C08CE1F4E75FA001AF12E /* Frameworks */,
+				B37C08CF1F4E75FA001AF12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37C08D31F4E75FA001AF12E /* PBXTargetDependency */,
+			);
+			name = EzCalTests;
+			productName = EzCalTests;
+			productReference = B37C08D11F4E75FA001AF12E /* EzCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B37C08DB1F4E75FA001AF12E /* EzCalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37C08EB1F4E75FA001AF12E /* Build configuration list for PBXNativeTarget "EzCalUITests" */;
+			buildPhases = (
+				B37C08D81F4E75FA001AF12E /* Sources */,
+				B37C08D91F4E75FA001AF12E /* Frameworks */,
+				B37C08DA1F4E75FA001AF12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37C08DE1F4E75FA001AF12E /* PBXTargetDependency */,
+			);
+			name = EzCalUITests;
+			productName = EzCalUITests;
+			productReference = B37C08DC1F4E75FA001AF12E /* EzCalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B37C08B51F4E75FA001AF12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FattGuy;
+				TargetAttributes = {
+					B37C08BC1F4E75FA001AF12E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CVSSWAABME;
+						ProvisioningStyle = Automatic;
+					};
+					B37C08D01F4E75FA001AF12E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CVSSWAABME;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B37C08BC1F4E75FA001AF12E;
+					};
+					B37C08DB1F4E75FA001AF12E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CVSSWAABME;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B37C08BC1F4E75FA001AF12E;
+					};
+				};
+			};
+			buildConfigurationList = B37C08B81F4E75FA001AF12E /* Build configuration list for PBXProject "EzCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B37C08B41F4E75FA001AF12E;
+			productRefGroup = B37C08BE1F4E75FA001AF12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37C08BC1F4E75FA001AF12E /* EzCal */,
+				B37C08D01F4E75FA001AF12E /* EzCalTests */,
+				B37C08DB1F4E75FA001AF12E /* EzCalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B37C08BB1F4E75FA001AF12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37C08CB1F4E75FA001AF12E /* LaunchScreen.storyboard in Resources */,
+				B37C08C81F4E75FA001AF12E /* Assets.xcassets in Resources */,
+				B37C08C61F4E75FA001AF12E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C08CF1F4E75FA001AF12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C08DA1F4E75FA001AF12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B37C08B91F4E75FA001AF12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37C08C31F4E75FA001AF12E /* ViewController.swift in Sources */,
+				B37C08C11F4E75FA001AF12E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C08CD1F4E75FA001AF12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37C08D61F4E75FA001AF12E /* EzCalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37C08D81F4E75FA001AF12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37C08E11F4E75FA001AF12E /* EzCalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B37C08D31F4E75FA001AF12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B37C08BC1F4E75FA001AF12E /* EzCal */;
+			targetProxy = B37C08D21F4E75FA001AF12E /* PBXContainerItemProxy */;
+		};
+		B37C08DE1F4E75FA001AF12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B37C08BC1F4E75FA001AF12E /* EzCal */;
+			targetProxy = B37C08DD1F4E75FA001AF12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B37C08C41F4E75FA001AF12E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B37C08C51F4E75FA001AF12E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B37C08C91F4E75FA001AF12E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B37C08CA1F4E75FA001AF12E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B37C08E31F4E75FA001AF12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B37C08E41F4E75FA001AF12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B37C08E61F4E75FA001AF12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CVSSWAABME;
+				INFOPLIST_FILE = EzCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengchang.EzCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B37C08E71F4E75FA001AF12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CVSSWAABME;
+				INFOPLIST_FILE = EzCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengchang.EzCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B37C08E91F4E75FA001AF12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CVSSWAABME;
+				INFOPLIST_FILE = EzCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengchang.EzCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzCal.app/EzCal";
+			};
+			name = Debug;
+		};
+		B37C08EA1F4E75FA001AF12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CVSSWAABME;
+				INFOPLIST_FILE = EzCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengchang.EzCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzCal.app/EzCal";
+			};
+			name = Release;
+		};
+		B37C08EC1F4E75FA001AF12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CVSSWAABME;
+				INFOPLIST_FILE = EzCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengchang.EzCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EzCal;
+			};
+			name = Debug;
+		};
+		B37C08ED1F4E75FA001AF12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CVSSWAABME;
+				INFOPLIST_FILE = EzCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fengchang.EzCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EzCal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B37C08B81F4E75FA001AF12E /* Build configuration list for PBXProject "EzCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37C08E31F4E75FA001AF12E /* Debug */,
+				B37C08E41F4E75FA001AF12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37C08E51F4E75FA001AF12E /* Build configuration list for PBXNativeTarget "EzCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37C08E61F4E75FA001AF12E /* Debug */,
+				B37C08E71F4E75FA001AF12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B37C08E81F4E75FA001AF12E /* Build configuration list for PBXNativeTarget "EzCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37C08E91F4E75FA001AF12E /* Debug */,
+				B37C08EA1F4E75FA001AF12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B37C08EB1F4E75FA001AF12E /* Build configuration list for PBXNativeTarget "EzCalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37C08EC1F4E75FA001AF12E /* Debug */,
+				B37C08ED1F4E75FA001AF12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B37C08B51F4E75FA001AF12E /* Project object */;
+}
